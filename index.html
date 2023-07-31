@@ -4,13 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- Meta tags for search engines -->
     <meta name="description" content="Rock Paper Scissors Lizard Spock game. The Big Bang Theory game.">
     <meta name="keywords" content="rock, paper, scissors, lizard, Spock, game, play, strategy, challenge">
+    
     <!-- Title -->
     <title>Rock Paper Scissors Lizard Spock</title>
+    
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+
+    <!-- Font Awesome and Google Fonts-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+    
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -19,28 +28,44 @@
     <!-- Header -->
     <header>
         <h1>
-        Rock-Paper-Scissors-Lizard-Spock
+            Rock-Paper-Scissors-Lizard-Spock
         </h1>
     </header>
 
     <!-- Main Body -->
     <main>
         <div class="game-area">
-            
-            <div class="buttons">
-              <button class="button" data-choice="rock">Rock</button>
-              <button class="button" data-choice="paper">Paper</button>
-              <button class="button" data-choice="scissors">Scissors</button>
-              <button class="button" data-choice="lizard">Lizard</button>
-              <button class="button" data-choice="spock">Spock</button>
+
+            <div class="buttons icons-container">
+                <button class="button btn-red" data-choice="rock">
+                    <i class="fas fa-hand-rock"></i> 
+                    <h4>Rock</h4>
+                </button>
+                <button class="button btn-blue icon" data-choice="paper">
+                    <i class="fas fa-hand-paper"></i> 
+                    <h4>Paper</h4>
+                </button>
+                <button class="button btn-green icon" data-choice="scissors">
+                    <i class="fas fa-hand-scissors"></i> 
+                    <h4>Scissors</h4>
+                </button>
+                <button class="button btn-yellow icon" data-choice="lizard">
+                    <i class="fas fa-hand-lizard"></i> 
+                    <h4>Lizard</h4>
+                </button>
+                <button class="button btn-orange icon" data-choice="spock">
+                    <i class="fas fa-hand-spock"></i> 
+                    <h4>Spock</h4>
+                </button>
             </div>
+
             <div class="rules-and-share">
-                <button class="button" data-choice="rules">Rules</button>
-                <button class="button" data-choice="share">Share</button>
+                <button class="button btn-purple" data-choice="rules">Rules</button>
+                <button class="button btn-purple" data-choice="share">Share</button>
             </div>
-          </div>
+        </div>
     </main>
-    
+
     <!-- Footer -->
     <footer class="footer">
         <ul class="social-networks">
@@ -65,8 +90,8 @@
         </ul>
     </footer>
 
-        <!-- font awesome script-->
-        <script src="https://kit.fontawesome.com/243ddd8b4d.js" crossorigin="anonymous"></script>
+    <!-- font awesome script-->
+    <script src="https://kit.fontawesome.com/243ddd8b4d.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

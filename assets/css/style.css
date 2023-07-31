@@ -22,22 +22,25 @@ body {
 header {
     background-color: rgb(117, 6, 139);
     text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 h1 {
     font-family: 'Handjet', cursive;
     color: azure;
-   text-align: center;
-   font-size: xx-large;
-   width: 100%;
-   margin: 10px;
+    text-align: center;
+    font-size: xx-large;
+    width: 100%;
+    margin: 10px;
 }
+
 /* Main body */
 main {
     background-color: rgb(170, 104, 240);
 
     .game-area {
-        background-color: azure;
+        background-color: lavender;
         box-sizing: border-box;
         width: 85%;
         height: 75vh;
@@ -45,9 +48,10 @@ main {
         max-width: 830px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 20%;
+        margin-top: 10%;
         margin-bottom: 20%;
         padding: 1%;
+        border-radius: 25px;
     }
 
     .buttons {
@@ -55,30 +59,65 @@ main {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin-top: 25%;
-      }
-      
-      .rules-and-share {
+        margin-top: 10%;
+    }
+
+    .rules-and-share {
         text-align: center;
         margin-top: 10%;
-      }
+    }
 
-      .button {
-        font-size: 18px;
+    .button {
+        font-size: 25px;
         padding: 10px 20px;
         margin: 10px;
-        border: 2px solid #333;
+        border: 2px solid;
         border-radius: 5px;
         cursor: pointer;
-        background-color: #f2f2f2;
-        color: #333;
         transition: background-color 0.3s ease, color 0.3s ease;
-      }
-      
-      .button:hover {
+    }
+
+    .btn-red {
+        color: azure;
+        background-color: rgb(255, 70, 70);
+        border-radius: 12px;
+    }
+
+    .btn-blue {
+        color: azure;
+        background-color: rgb(70, 165, 255);
+        border-radius: 12px;
+    }
+
+    .btn-green {
+        color: azure;
+        background-color: rgb(0, 255, 140);
+        border-radius: 12px;
+    }
+
+    .btn-yellow {
+        color: azure;
+        background-color: rgb(255, 215, 0);
+        border-radius: 12px;
+    }
+
+    .btn-orange {
+        color: azure;
+        background-color: rgb(255,165,0);
+        border-radius: 12px;
+    }
+
+    .btn-purple {
+        color: azure;
+        background-color: rgb(117, 6, 139);
+        border-radius: 12px;
+    }
+
+    .button:hover {
         background-color: #333;
         color: #f2f2f2;
-      }
+    }
+
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
