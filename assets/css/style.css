@@ -23,6 +23,14 @@ header {
     background-color: rgb(117, 6, 139);
 }
 
+h1 {
+    font-family: 'Handjet', cursive;
+    color: azure;
+   text-align: center;
+   font-size: xx-large;
+   width: 100%;
+   margin: 10px;
+}
 /* Main body */
 main {
     background-color: rgb(170, 104, 240);
