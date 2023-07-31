@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Oswald&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by browser */
 * {
     padding: 0;
@@ -12,21 +15,51 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
+    font-family: 'Handjet', cursive;
 }
 
 /* Header */
 header {
-    background-color: red;
+    background-color: rgb(117, 6, 139);
 }
 
 /* Main body */
 main {
-    background-color: blue;
+    background-color: rgb(170, 104, 240);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
-/* Footer */
-footer {
-    background-color: green;
+/* Footer Styling */
+
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(117, 6, 139);
+    color: azure;
+    text-align: center;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline-block;
+    margin: 25px 25px;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: azure;
+}
+
+.social-networks i:hover {
+    font-size: 200%;
 }
