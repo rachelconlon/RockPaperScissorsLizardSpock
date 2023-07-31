@@ -36,32 +36,33 @@
     <main>
         <div class="game-area">
 
-            <div class="buttons icons-container">
-                <button class="button btn-red" data-choice="rock">
+            <div class="buttons">
+                <button class="button" id="btn-red" data-choice="rock">
                     <i class="fas fa-hand-rock"></i> 
-                    <h4>Rock</h4>
                 </button>
-                <button class="button btn-blue icon" data-choice="paper">
+                <button class="button" id="btn-blue" data-choice="paper">
                     <i class="fas fa-hand-paper"></i> 
-                    <h4>Paper</h4>
                 </button>
-                <button class="button btn-green icon" data-choice="scissors">
+                <button class="button" id="btn-green" data-choice="scissors">
                     <i class="fas fa-hand-scissors"></i> 
-                    <h4>Scissors</h4>
                 </button>
-                <button class="button btn-yellow icon" data-choice="lizard">
+                <button class="button" id="btn-yellow" data-choice="lizard">
                     <i class="fas fa-hand-lizard"></i> 
-                    <h4>Lizard</h4>
                 </button>
-                <button class="button btn-orange icon" data-choice="spock">
+                <button class="button" id="btn-orange" data-choice="spock">
                     <i class="fas fa-hand-spock"></i> 
-                    <h4>Spock</h4>
                 </button>
             </div>
+            <h2>Result:</h2>
+            <div class="game-result">
+                <p id="result-text">
+                    <!-- Result will be displayed here. -->
+                </p>
+              </div>
 
             <div class="rules-and-share">
-                <button class="button btn-purple" data-choice="rules">Rules</button>
-                <button class="button btn-purple" data-choice="share">Share</button>
+                <button class="button" id="btn-purple-left" data-choice="rules">Rules</button>
+                <button class="button" id="btn-purple-right" data-choice="share">Share</button>
             </div>
         </div>
     </main>
