@@ -21,6 +21,7 @@ body {
 /* Header */
 header {
     background-color: rgb(117, 6, 139);
+    text-align: center;
 }
 
 h1 {
@@ -34,6 +35,50 @@ h1 {
 /* Main body */
 main {
     background-color: rgb(170, 104, 240);
+
+    .game-area {
+        background-color: azure;
+        box-sizing: border-box;
+        width: 85%;
+        height: 75vh;
+        max-height: 450px;
+        max-width: 830px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        padding: 1%;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 25%;
+      }
+      
+      .rules-and-share {
+        text-align: center;
+        margin-top: 10%;
+      }
+
+      .button {
+        font-size: 18px;
+        padding: 10px 20px;
+        margin: 10px;
+        border: 2px solid #333;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #f2f2f2;
+        color: #333;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      
+      .button:hover {
+        background-color: #333;
+        color: #f2f2f2;
+      }
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
